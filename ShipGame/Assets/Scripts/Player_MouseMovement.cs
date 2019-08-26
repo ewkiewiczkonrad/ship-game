@@ -26,6 +26,7 @@ public class Player_MouseMovement : MonoBehaviour
         {
             touchStart = true;
             pointB = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, Camera.main.transform.position.z));
+            
         }
         else // jesli nie naciskamy już
         {
